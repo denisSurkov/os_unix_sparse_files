@@ -169,6 +169,7 @@ C
 A.gz
 B.gz
 D
+results.txt
 
 # compiled programs
 test_file_creator
