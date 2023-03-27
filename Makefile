@@ -142,77 +142,77 @@ test_file_creator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_file_creator.dir/build.make CMakeFiles/test_file_creator.dir/build
 .PHONY : test_file_creator/fast
 
-main.o: main.c.o
-.PHONY : main.o
+src/main.o: src/main.c.o
+.PHONY : src/main.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sparse_file.dir/build.make CMakeFiles/sparse_file.dir/main.c.o
-.PHONY : main.c.o
+src/main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sparse_file.dir/build.make CMakeFiles/sparse_file.dir/src/main.c.o
+.PHONY : src/main.c.o
 
-main.i: main.c.i
-.PHONY : main.i
+src/main.i: src/main.c.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sparse_file.dir/build.make CMakeFiles/sparse_file.dir/main.c.i
-.PHONY : main.c.i
+src/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sparse_file.dir/build.make CMakeFiles/sparse_file.dir/src/main.c.i
+.PHONY : src/main.c.i
 
-main.s: main.c.s
-.PHONY : main.s
+src/main.s: src/main.c.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sparse_file.dir/build.make CMakeFiles/sparse_file.dir/main.c.s
-.PHONY : main.c.s
+src/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sparse_file.dir/build.make CMakeFiles/sparse_file.dir/src/main.c.s
+.PHONY : src/main.c.s
 
-sparse_file_processor.o: sparse_file_processor.c.o
-.PHONY : sparse_file_processor.o
+src/sparse_file_processor.o: src/sparse_file_processor.c.o
+.PHONY : src/sparse_file_processor.o
 
 # target to build an object file
-sparse_file_processor.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sparse_file.dir/build.make CMakeFiles/sparse_file.dir/sparse_file_processor.c.o
-.PHONY : sparse_file_processor.c.o
+src/sparse_file_processor.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sparse_file.dir/build.make CMakeFiles/sparse_file.dir/src/sparse_file_processor.c.o
+.PHONY : src/sparse_file_processor.c.o
 
-sparse_file_processor.i: sparse_file_processor.c.i
-.PHONY : sparse_file_processor.i
+src/sparse_file_processor.i: src/sparse_file_processor.c.i
+.PHONY : src/sparse_file_processor.i
 
 # target to preprocess a source file
-sparse_file_processor.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sparse_file.dir/build.make CMakeFiles/sparse_file.dir/sparse_file_processor.c.i
-.PHONY : sparse_file_processor.c.i
+src/sparse_file_processor.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sparse_file.dir/build.make CMakeFiles/sparse_file.dir/src/sparse_file_processor.c.i
+.PHONY : src/sparse_file_processor.c.i
 
-sparse_file_processor.s: sparse_file_processor.c.s
-.PHONY : sparse_file_processor.s
+src/sparse_file_processor.s: src/sparse_file_processor.c.s
+.PHONY : src/sparse_file_processor.s
 
 # target to generate assembly for a file
-sparse_file_processor.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sparse_file.dir/build.make CMakeFiles/sparse_file.dir/sparse_file_processor.c.s
-.PHONY : sparse_file_processor.c.s
+src/sparse_file_processor.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sparse_file.dir/build.make CMakeFiles/sparse_file.dir/src/sparse_file_processor.c.s
+.PHONY : src/sparse_file_processor.c.s
 
-test_file_creator.o: test_file_creator.c.o
-.PHONY : test_file_creator.o
+src/test_file_creator.o: src/test_file_creator.c.o
+.PHONY : src/test_file_creator.o
 
 # target to build an object file
-test_file_creator.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_file_creator.dir/build.make CMakeFiles/test_file_creator.dir/test_file_creator.c.o
-.PHONY : test_file_creator.c.o
+src/test_file_creator.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_file_creator.dir/build.make CMakeFiles/test_file_creator.dir/src/test_file_creator.c.o
+.PHONY : src/test_file_creator.c.o
 
-test_file_creator.i: test_file_creator.c.i
-.PHONY : test_file_creator.i
+src/test_file_creator.i: src/test_file_creator.c.i
+.PHONY : src/test_file_creator.i
 
 # target to preprocess a source file
-test_file_creator.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_file_creator.dir/build.make CMakeFiles/test_file_creator.dir/test_file_creator.c.i
-.PHONY : test_file_creator.c.i
+src/test_file_creator.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_file_creator.dir/build.make CMakeFiles/test_file_creator.dir/src/test_file_creator.c.i
+.PHONY : src/test_file_creator.c.i
 
-test_file_creator.s: test_file_creator.c.s
-.PHONY : test_file_creator.s
+src/test_file_creator.s: src/test_file_creator.c.s
+.PHONY : src/test_file_creator.s
 
 # target to generate assembly for a file
-test_file_creator.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_file_creator.dir/build.make CMakeFiles/test_file_creator.dir/test_file_creator.c.s
-.PHONY : test_file_creator.c.s
+src/test_file_creator.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_file_creator.dir/build.make CMakeFiles/test_file_creator.dir/src/test_file_creator.c.s
+.PHONY : src/test_file_creator.c.s
 
 # Help Target
 help:
@@ -224,15 +224,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... sparse_file"
 	@echo "... test_file_creator"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... sparse_file_processor.o"
-	@echo "... sparse_file_processor.i"
-	@echo "... sparse_file_processor.s"
-	@echo "... test_file_creator.o"
-	@echo "... test_file_creator.i"
-	@echo "... test_file_creator.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/sparse_file_processor.o"
+	@echo "... src/sparse_file_processor.i"
+	@echo "... src/sparse_file_processor.s"
+	@echo "... src/test_file_creator.o"
+	@echo "... src/test_file_creator.i"
+	@echo "... src/test_file_creator.s"
 .PHONY : help
 
 
